@@ -1,0 +1,6 @@
+.vscode
+typings
+.DS_Store
+project.config.json
+project.private.config.json
+node_modules
