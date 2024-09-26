@@ -21,8 +21,8 @@ const getAllFiles = (dir, fileList = []) => {
 const transformMethodNames = content => {
   // 匹配 async function
   return content.replace(/(\w+): async function \(/g, 'async $1(')
-                // 匹配普通 function
-                .replace(/(\w+): function \(/g, '$1(');
+    // 匹配普通 function
+    .replace(/(\w+): function \(/g, '$1(');
 };
 
 // 扫描并转换文件
